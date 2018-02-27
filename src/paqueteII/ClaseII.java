@@ -37,7 +37,7 @@ public class ClaseII {
      *
      */
     public void metodo3(){
-        
+        System.out.println("Este metodo no retorna valor.");
     }
     /**
      * Metodo publico de tipo flotante.

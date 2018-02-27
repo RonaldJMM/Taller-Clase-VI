@@ -61,21 +61,24 @@ public class Main {
        objeto3.variable5=62.74;
        
        //Llamado de cada uno de los metodos de los objetos de las clases.
-       objeto1.metodo1();
-       objeto1.metodo2();
+       System.out.println("Retorno Metodo int Objeto 1: "+objeto1.metodo1());
+       System.out.println("Retorno Metodo String Objeto 1: "+objeto1.metodo2());
+       System.out.print("Retorno Metodo void Objeto 1: ");
        objeto1.metodo3();
-       objeto1.metodo4();
-       objeto1.metodo5();
-       objeto2.metodo1();
-       objeto2.metodo2();
+       System.out.println("Retorno Metodo float Objeto 1: "+objeto1.metodo4());
+       System.out.println("Retorno Metodo double Objeto 1: "+objeto1.metodo5());
+       System.out.println("Retorno Metodo int Objeto 2: "+objeto2.metodo1());
+       System.out.println("Retorno Metodo String Objeto 2: "+objeto2.metodo2());
+       System.out.print("Retorno Metodo void Objeto 2: ");
        objeto2.metodo3();
-       objeto2.metodo4();
-       objeto2.metodo5();
-       objeto3.metodo1();
-       objeto3.metodo2();
+       System.out.println("Retorno Metodo float Objeto 2: "+objeto2.metodo4());
+       System.out.println("Retorno Metodo double Objeto 2: "+objeto2.metodo5());
+       System.out.println("Retorno Metodo int Objeto 3: "+objeto3.metodo1());
+       System.out.println("Retorno Metodo String Objeto 3: "+objeto3.metodo2());
+       System.out.print("Retorno Metodo void Objeto 3: ");
        objeto3.metodo3();
-       objeto3.metodo4();
-       objeto3.metodo5();
+       System.out.println("Retorno Metodo float Objeto 3: "+objeto3.metodo4());
+       System.out.println("Retorno Metodo double Objeto 3: "+objeto3.metodo5());
        
        //Llamado del metodo toString de cada objeto de sus clases.
        System.out.println(objeto1.toString());
